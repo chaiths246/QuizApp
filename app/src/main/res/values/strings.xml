@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">General Knowledge</string>
+    <string name="question">1) Which is the largest river in the world?</string>
+    <string name="option1">Amazon</string>
+    <string name="option2">Yellow River</string>
+    <string name="option3">Nile</string>
+    <string name="option4">Volga</string>
+    <string name="title_activity_chech_box">ChechBoxActivity</string>
+    <string name="title_activity_radio_button">RadioButtonActivity</string>
+    <string name="title_activity_edit_text">EditTextActivity</string>
+</resources>
