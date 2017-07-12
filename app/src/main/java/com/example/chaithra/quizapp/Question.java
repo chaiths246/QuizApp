@@ -29,11 +29,7 @@ public class Question {
     public ArrayList<Answer> getOptions() {
         return options;
     }
-
-    public boolean hasOptions() {
-        return options.size() != 0;
-    }
-
+    
     public int totalCorrectAnswers() {
 
         return correctAnswers.size();
