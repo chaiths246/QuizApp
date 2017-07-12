@@ -11,8 +11,6 @@ public class Question {
     private ArrayList<Answer> options;
 
     private ArrayList<Answer> correctAnswers;
-
-
     /**
      * Construtcor is used to set the question,options and correct answer
      */
