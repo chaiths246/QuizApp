@@ -20,6 +20,5 @@ public class ScoreActivity extends AppCompatActivity {
         int numberOfQuestions = quizMaster.totalNUmberOfQuestions();
         mScore.setText("  " + numberOfQuestions);
         newMarks.setText("" + ApplicationState.INSTANCE.quizMaster.getCurrentScore());
-
     }
 }
