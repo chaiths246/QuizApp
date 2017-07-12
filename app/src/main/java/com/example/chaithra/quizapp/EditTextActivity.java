@@ -47,7 +47,6 @@ public class EditTextActivity extends AppCompatActivity {
     }
 
     public void navigateToNextQuestion() {
-        //ApplicationState.INSTANCE.quizMaster.myAnswer(answers);
         if (ApplicationState.INSTANCE.quizMaster.isLastQuestion()) {
             Intent intent1 = new Intent(EditTextActivity.this, ScoreActivity.class);
             startActivity(intent1);
