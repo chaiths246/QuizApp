@@ -11,8 +11,6 @@ public class Question {
     private ArrayList<Answer> options;
 
     private ArrayList<Answer> correctAnswers;
-
-
     /**
      * Construtcor is used to set the question,options and correct answer
      */
@@ -29,11 +27,7 @@ public class Question {
     public ArrayList<Answer> getOptions() {
         return options;
     }
-
-    public boolean hasOptions() {
-        return options.size() != 0;
-    }
-
+    
     public int totalCorrectAnswers() {
 
         return correctAnswers.size();
