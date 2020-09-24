@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (question.totalCorrectAnswers() == 1) {
             Intent intent2 = new Intent(MainActivity.this, RadioButtonActivity.class);
             startActivity(intent2);
+            //
         }
 
 
